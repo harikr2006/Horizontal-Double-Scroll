@@ -1,5 +1,5 @@
 (function($){
-            $.fn.ds = function(options){
+            $.fn.hds = function(options){
                 this.each(function(){
                     $(this).css({"overflow":"scroll"});
 					
