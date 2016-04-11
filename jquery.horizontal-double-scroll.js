@@ -1,8 +1,9 @@
+
 (function($) {
     'use strict'
     $.fn.hds = function(options) {
         var opts = $.extend({}, $.fn.hds.defaults, options);
-        this.each(function() {
+        return this.each(function() {
             var _this = $(this);
             $.fn.template(_this, opts);
             $(window).resize(function() {
@@ -54,3 +55,4 @@
         })
     }
 }(jQuery));
+
